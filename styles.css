@@ -1,0 +1,255 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    margin: 80px auto 0; /* Espaço para a navegação fixa */
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.room-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 23%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.room-card img {
+    width: 100%;
+    height: auto;
+}
+
+.room-info {
+    padding: 15px;
+}
+
+.room-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.room-info p {
+    font-size: 14px;
+    color: #555;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.status.available {
+    background-color: #28a745;
+}
+
+.status.cleaning {
+    background-color: #ffc107;
+}
+
+.status.unavailable {
+    background-color: #dc3545;
+}
+
+.botao__red{
+    background-color: #b81f1f;
+}
+
+.botao__azul{
+    background-color:rgb(53, 89, 208)
+}
+
+.botao__verde{
+    background-color: green;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: calc(50% - 200px);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons img {
+    width: 30px;
+    margin: 5px;
+}
+.save-button {
+    background-color: #003366;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.select-room {
+    display: flex;
+    align-items: center;
+}
+.select-room button {
+    background-color: #003366;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    height: 34px;
+    margin: 0 5px;
+    cursor: pointer;
+    margin-top: -99px;
+}
+.room-display {
+    background-color: #CCCCCC;
+    color: #666666;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.bloco {
+    background-color: #CCCCCC;
+    color: #666666;
+    width: 394px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.blocosvenda{
+    color: #777;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    text-align: left;
+    font-size:30px;
+}
+
+.venda {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-left: 83px;
+}
+
+.blocos{
+    background-color: #CCCCCC;
+    color: #666666;
+    width: 394px;
+    height: 298px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.blocos2{
+    background-color: #CCCCCC;
+    color: #666666;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 10px;
+    display: flex;
+
+
+}
+
